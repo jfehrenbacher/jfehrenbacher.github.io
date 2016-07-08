@@ -1,0 +1,116 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+//fonts//
+
+@font-face {
+font-family: Moon;
+src: url("/fonts/Moon Light.otf") format("opentype");
+}
+
+@font-face {
+font-family: Moon;
+font-weight: bold;
+src: url("/fonts/Moon Bold.otf") format("opentype");
+}
+
+//endfonts//
+
+.nav {
+  position:relative;
+  top:665px;
+    li {
+  display: inline-block;
+    }
+    a {
+    padding-left:20px;
+    padding-right:20px;
+    }
+}
+
+.nav > li > a:hover, .nav > li > a:focus,{
+  background-color: transparent;
+  color:rgba(233,85,66,1);
+}
+
+
+
+.container-fluid {
+  background-color:rgba(31,31,31,1);
+  height:900px;
+}
+
+.moonbold {
+  color:white;
+  font-family:Moon;
+  font-weight:bold;
+}
+.moonlight {
+  color:white;
+  font-family:Moon;
+}
+
+a {
+  color:white;
+}
+
+img {
+  width:400px;
+  height:400px;
+}
+
+a:hover {
+  background-color:none;
+  color:rgba(233,85,66,1);
+}
+#redabout {
+  color:white;
+  background-color:rgba(233,85,66,1);
+  height:900px;
+}
+#whiteabout {
+  background-color:white;
+  height:900px;
+}
+#whitework {
+  background-color:white;
+  height:900px;
+}
+#redwork {
+  background-color:rgba(233,85,66,1);
+  height:900px;
+}
+#redcontact {
+background-color:rgba(233,85,66,1);
+  height:900px;
+}
+#whitecontact {
+  background-color:white;
+  height:900px;
+}
+.abouttitle {
+  position:relative;
+  top:450px;
+  font-size:72px;
+}
+#jack {
+  position:relative;
+  top:100px;
+}
+.title {
+  position:relative;
+  top:80px;
+}
+.subtitle {
+  position:relative;
+  top:85px;
+}
+.worktitle {
+  color:rgba(233,85,66,1);
+  font-size:72px;
+  position:relative;
+  top:450px;
+}
