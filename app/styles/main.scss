@@ -115,13 +115,20 @@ a:hover {
 
 @media only screen and (max-width: 900px) {
   #aboutpattern {
-    width:360px;
-    height:360px;
+    width:280px;
+    height:280px;
     position:relative;
-    top:250px;
+    margin-top:75px;
   }
 }
 
+@media only screen and (max-width: 900px) {
+  #contactpattern {
+    width:280px;
+    height:280px;
+    margin-top:75px;
+  }
+}
 
 .personal {
   font-family: "CooperHewitt";
@@ -407,14 +414,6 @@ background-color:rgba(233,85,66,1);
   top:225px;
 }
 
-@media only screen and (max-width: 900px) {
-  #contactpattern {
-    width:360px;
-    height:360px;
-    position:relative;
-    top:250px;
-  }
-}
 
 // .contactimg {
 //   width:100px;
