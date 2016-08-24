@@ -46,6 +46,8 @@ src: url("/fonts/CooperHewitt-Book.otf") format("opentype");
 .container-fluid {
   background-color:rgba(31,31,31,1);
   height:900px;
+  padding-left: 0;
+  padding-right: 0;
 }
 // FONT CLASSES ///////////////////////////////
 .moonbold {
