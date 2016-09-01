@@ -37,10 +37,14 @@ src: url("/fonts/CooperHewitt-Book.otf") format("opentype");
     padding-right:20px;
     }
 }
-.nav > li > a:hover, .nav > li > a:focus,{
+.nav > li > a:hover {
   background-color: transparent;
   color:rgba(233,85,66,1);
   font-weight:bold;
+}
+.nav > li > a:focus {
+  background-color:transparent;
+  color:rgba(233,85,66,1);
 }
 // ENDNAV ///////////////////////////////
 .container-fluid {
@@ -215,7 +219,7 @@ a:hover {
   font-size:48px;
   position:relative;
   top:67px;
-  right:166px;
+  right:205px;
           -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
        -o-transition: all 0.5s ease;
@@ -432,7 +436,7 @@ background-color:rgba(233,85,66,1);
       -ms-transition: all 0.5s ease;
           transition: all 0.5s ease;
 }
-#insta {
+#github {
   background-image: url('/images/insta.jpg');
             -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
@@ -451,7 +455,7 @@ background-color:rgba(233,85,66,1);
 #linkedin:hover {
   background-image: url('/images/linkedin2.jpg')
 }
-#insta:hover {
+#github:hover {
   background-image: url('/images/insta2.jpg');
 }
 #behance:hover {
