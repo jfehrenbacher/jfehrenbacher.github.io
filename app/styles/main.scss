@@ -140,39 +140,33 @@ a:hover {
   font-family: "CooperHewitt";
   padding-left:30px;
   padding-right:30px;
-  position:relative;
-  top:275px;
+  padding-bottom:20px;
   z-index:1;
 }
 #personal2 {
   position:relative;
-  top:304px;
   z-index:1;
 }
 #personal3 {
   position:relative;
-  top:332px;
   z-index:1;
 }
 .aboutplacement {
   position:relative;
-  bottom:175px;
+  top:85px;
 }
 #familiar {
   z-index:1;
   position:relative;
-  top:355px;
   left:30px;
 }
 #proficient {
   z-index:1;
   position:relative;
-  top:361px;
   left:30px;
 }
 #proficientlist  {
   position:relative;
-  top:355px;
   list-style-type:none;
   font-family:moon;
   font-weight:bold;
@@ -180,15 +174,13 @@ a:hover {
 }
 #familiarlist {
   position:relative;
-  top:350px;
   list-style-type:none;
   font-family:moon;
   font-weight:bold;
   left:-10px;
 }
 .listplacement {
-  position:relative;
-  bottom:10px;
+
 }
 // ENDABOUT ////////////////////////////////
 // WORK ////////////////////////////////////
@@ -460,6 +452,11 @@ background-color:rgba(233,85,66,1);
 }
 #behance:hover {
   background-image: url('/images/behance2.jpg');
+}
+#email{
+  position:relative;
+  top:360px;
+  font-size:12px;
 }
 .contactimg {
   width:100px;
